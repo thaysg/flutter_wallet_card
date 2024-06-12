@@ -26,7 +26,7 @@ void generateWalletPassFromPath() async {
   await file.delete();
 }
 
-final exampleUrl =
+const exampleUrl =
     'https://github.com/WebEferen/flutter_wallet_card/raw/master/example/passes/example.pkpass';
 
 final examplePass = PasskitPass(
@@ -37,9 +37,9 @@ final examplePass = PasskitPass(
   serialNumber: '0000001',
   teamIdentifier: '6X23T5KB6N',
   logoText: "ACME Company",
-  foregroundColor: Color.fromRGBO(255, 255, 255, 1),
-  backgroundColor: Color.fromRGBO(90, 90, 90, 1),
-  labelColor: Color.fromRGBO(255, 255, 255, 1),
+  foregroundColor: const Color.fromRGBO(255, 255, 255, 1),
+  backgroundColor: const Color.fromRGBO(90, 90, 90, 1),
+  labelColor: const Color.fromRGBO(255, 255, 255, 1),
   generic: PasskitStructure(
     primaryFields: [
       PasskitField(
