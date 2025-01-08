@@ -6,11 +6,11 @@ repository: https://github.com/WebEferen/flutter_wallet_card.git
 issue_tracker: https://github.com/WebEferen/flutter_wallet_card/issues
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
-  flutter: ">=3.22.2"
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.3.0'
 
 dependencies:
-  archive: ^3.6.1
+  archive: ^3.3.8
   cli_script: ^1.0.0
   crypto: ^3.0.3
   dio: ^5.4.3+1
